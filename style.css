@@ -1,0 +1,205 @@
+*{margin: 0;padding: 0;}
+.total
+{
+	
+	width: 1060px;
+	margin: 0 auto;
+	
+	background-image: url('https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940');
+	background-size: 1060px;
+	height: 1200px;
+	background-repeat: no-repeat;
+
+}
+.head
+{
+	color: gray;
+	text-align: center;
+	background: rgb(123,234,100);
+}
+.nav
+{
+	background: rgb(12,200,255);
+	overflow: hidden;
+}
+.nav ul
+{
+	list-style-type: none;
+	height: 40px;
+	float: left;
+
+
+}
+.nav ul li
+{
+	float: left;
+	padding: 10px 10px;
+
+
+}
+.nav ul li a
+{
+	color:white;
+	text-decoration: none;
+
+}
+.nav ul li:hover
+{
+	background:black;
+	transition-duration: 0.5s;
+}
+.nav input
+{
+	float: right;
+	padding: 9px 30px;
+	background: rgb(209, 194, 186);
+	border-radius: 5px;
+	border: 2px solid green;	
+}
+.nav-login a
+{
+	text-decoration: none;
+	color: white;
+
+
+}
+.nav-login form input
+{
+	padding: 9px 10px;
+	background: rgb(209, 194, 186);
+	border-radius: 5px;
+	border: 2px solid green;	
+	margin-left: 10px;
+}
+.container_full
+{
+	background: #4b4545;
+	
+}
+.container
+{
+	
+}
+.content_wrapper
+{
+	
+}
+.main_wrapper
+{
+	width: 400px;
+	padding: 10px 20px;
+	background: #9bb385;
+}
+.main_wrapper h1, .sidebar h2
+{
+	color: green;
+}
+.fix
+{
+	overflow: hidden;
+}
+.floatleft
+{
+	float: left;
+}
+.sidebar
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 200px;
+	background: #9bb385;
+}
+.sidebar ul li a
+{
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
+.sidebar ul li a:hover
+{
+	transition-duration: 0.5s;
+	background: black;
+}
+.sidebar ul li
+{
+	padding: 5px;
+}
+.sidebar ul
+{
+	margin-bottom: 30px;
+}
+.footer
+{
+	padding: 10px;
+	background: rgb(10,10,10);
+	color: rgb(230,210,234);
+}
+.footer img
+{
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+	
+	width: 30px;
+	height: 30px; 
+}
+.footer a:hover
+{
+	
+	opacity: 0.5;
+}
+.nav img
+{
+	height: 200px;
+	width: 1060px;
+	transition-duration: 0.8s;
+}
+header a img
+{
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px; 
+	opacity: 0.5;
+
+}
+header a img:hover
+{
+	opacity: 1;
+	color: blue;
+}
+.head button
+{
+	padding: 10px;
+	margin: 5px;
+	background: lightblue;
+	opacity: 0.5;
+}
+.head button:hover
+{
+	
+	cursor: pointer;
+	opacity: 1;
+}
+.main-container
+{
+	background: rgb(200,200,200);
+}
+section form input[type=text],section form input[type=password],section form input[type=date],section form input[type=number],section form select
+{
+	width: 300px;
+
+}
+section form button
+{
+	background:lightblue;
+	opacity: 0.5;
+	padding: 10px;
+	cursor: pointer;
+}
+section form button:hover
+{
+	opacity: 1;
+}
